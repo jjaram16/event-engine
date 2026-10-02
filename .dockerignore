@@ -1,0 +1,26 @@
+# Secrets: never send keys into the build context
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+.env
+.env.*
+
+# VCS metadata
+.git
+.gitignore
+
+# Host-built binaries and artifacts (the image builds its own)
+run_threads
+test_queue
+event_engine
+build/
+*.o
+*.dSYM/
+
+# OS / editor noise
+.DS_Store
+.vscode/
+.idea/

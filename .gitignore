@@ -1,0 +1,27 @@
+# Secrets: never commit keys or certificates
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+.env
+.env.*
+
+# Compiled binaries (legacy names from hand-built commands)
+run_threads
+test_queue
+event_engine
+
+# Build artifacts
+build/
+*.o
+*.a
+*.dSYM/
+CMakeFiles/
+CMakeCache.txt
+
+# OS / editor noise
+.DS_Store
+.vscode/
+.idea/
